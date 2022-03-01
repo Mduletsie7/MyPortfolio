@@ -243,6 +243,7 @@ section>.about-me {
 
     .page-main {
         width: 100%;
+        height: 100vh;
     }
 
     .main-image {
@@ -252,9 +253,20 @@ section>.about-me {
         height: auto;
     }
 
-    .page-footer {
+    #portfolio-section {
         display: flex;
-        flex-direction: column;
     }
+
+    .portfolio {
+        margin: 0 auto;
+    }
+
+    .copy {
+        font-size: 12px;
+    }
+
+
+
+   
 
 }
